@@ -12,19 +12,19 @@ var gameOver;
 
 var invaders = [];
 
-function preload() {
-  // soundFormats('mp3', 'wav');
+// function preload() {
+//   // soundFormats('mp3', 'wav');
   
-  // music = loadSound('assets/Sounds/444765__richheard__pulse-build.wav');
-  // fireSound = loadSound('assets/Sounds/151022__bubaproducer__laser-shot-silenced.wav');
-  // impactSound = loadSound('assets/Sounds/388528__eflexmusic__artillery-explosion-close-mixed.wav');
-  // gameOverSound = loadSound('assets/Sounds/173859__jivatma07__j1game-over-mono.wav');
+//   // music = loadSound('assets/Sounds/444765__richheard__pulse-build.wav');
+//   // fireSound = loadSound('assets/Sounds/151022__bubaproducer__laser-shot-silenced.wav');
+//   // impactSound = loadSound('assets/Sounds/388528__eflexmusic__artillery-explosion-close-mixed.wav');
+//   // gameOverSound = loadSound('assets/Sounds/173859__jivatma07__j1game-over-mono.wav');
   
-  gameOn = true;
-  impact = false;
-  pointY = height/4;
-  gameOver = false;
-}
+//   // gameOn = true;
+//   // impact = false;
+//   // pointY = height/4;
+//   // gameOver = false;
+// }
 
 
 function setup() {
@@ -34,8 +34,8 @@ function setup() {
     //   music.play(); 
     // }
     
-  invaderImg = loadImage("assets/Images/invader.png");
-  invader2Img = loadImage("assets/Images/invader2.png");
+  invaderImg = loadImage("assets/Images/Invader1.png");
+  invader2Img = loadImage("assets/Images/Invader2.png");
   spaceshipImg = loadImage("assets/Images/spaceship.png");
     
   ship = new Spaceship(width/2, 570);
